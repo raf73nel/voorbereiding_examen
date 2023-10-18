@@ -13,7 +13,7 @@ for i in range(0,aantal):
     looptijd=int(input("Geeft de looptijd in minuten: "))
     lijst.append(looptijd)
 lijst.sort()
-lijst.reverse()
+
 
 for k in lijst[:3]:
     print(k) 
